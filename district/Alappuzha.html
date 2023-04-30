@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alappuzha</title>
+    <link rel="icon" href="Kerala-fotor-bg-remover-20230424201150.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    #logo{
+        height: 80px;
+        width: 80px;
+        margin-left: 20px;
+    }
+   .navbar a{
+    
+        text-decoration: none;
+        color:rgb(15, 111, 229);
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-right: 80px;
+        
+    }
+    .navbar a:hover{
+      color: gray;
+      
+    }
+    #para1{
+        margin-left: 60px;
+    }
+    #map{
+        float: right ;
+        margin-right: 50px;
+        padding: 0;
+       
+        
+     
+    }
+    
+    .card-group{
+   
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card{
+        height: 270;
+        margin-left: 80px;
+        margin-right: 80px;
+       
+       
+        
+        color: blue;
+        padding: 0px;
+    }
+    #image{
+        height: 350px;
+    }
+    
+    .flip-card {
+        background-color: white;
+        width: 290px;
+        height: 340px;
+        perspective: 1000px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        
+        transform: rotateY(-360deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: white;
+        color: white;
+      }
+      
+      .flip-card-back {
+        background-color:white;
+        color: rgb(242, 10, 10);
+        transform: rotateY(180deg);
+      }
+   
+      
+    
+   
+</style>
+
+</head>
+<body>
+    <div>
+<!-- nav start -->
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img id="logo" src="Kerala-fotor-bg-remover-20230424201150.png" alt=""> &nbsp;&nbsp;
+      <a class="navbar-brand" href="../navbar/login/login.html">Log In</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../navbar/login/signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../district.html">District Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="https://www.makemytrip.com/holidays-india/kerala-tourism.html">Plan Your Trip</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br>
+
+
+  <!-- cards -->
+
+  <div class="card-group">
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://en.wikipedia.org/wiki/Vembanad"><img id="image" src="veband lake.webp" class="card-img-top h-60" alt="..."></a><br> 
+      <div class="card-body">
+     <h5 class="card-title  text-primary text-center ">Vembanad Lake </h5>
+          <div class="flip-card-back text-primary bg-info">
+             
+            
+            
+          </div>
+        </div>
+        </div>
+      </div>  
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.kerala-tourism.org/lakes-of-kerala/punnamada-lake.html"><img id="image" src="Kerala-boat-races.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Punnamada lake</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://en.wikipedia.org/wiki/Alappuzha_Beach"><img id="image" src="alappuzha-beach-7108043_1280.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Alappuzha Beach</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.ekeralatourism.net/backwaters/alleppey-backwaters/" ><img id="image" src="alappuzha back.jpg" class="card-img-top h-60 " alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Alappuzha Backwaters</h5>
+        <div class="flip-card-back text-primary">
+          
+        
+          
+        </div>
+      </div>
+       
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- cards end -->
+
+  <br><br><br><br><br>
+
+  <!-- Description -->
+
+<div id="para1">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125922.83028779343!2d76.34210589999999!3d9.5010367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0884f1aa296b61%3A0xb84764552c41f85a!2sAlappuzha%2C%20Kerala!5e0!3m2!1sen!2sin!4v1682766573174!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    <h1 class=" text-primary" >Alappuzha</h1><br>
+    
+
+
+    <p >Alappuzha or Alleppey  is the administrative headquarters of Alappuzha district in state of Kerala, India. The Backwaters of Alappuzha are one of the most popular tourist attractions in India which attracts millions of domestic and international tourists.[3]
+
+      Alleppey is a city and a municipality in Kerala with an urban population of 174,164[4] and ranks third among the districts in literacy rate in the state. In 2016, the Centre for Science and Environment rated Alappuzha as the cleanest town in India.[5] Alappuzha is considered to be the oldest planned city in this region and the lighthouse built on the coast of the city is the first of its kind along the Laccadive Sea coast.[6]
+      
+      The city is 55 km from Kochi and 155 km north of Thiruvananthapuram.[7] A town with canals, backwaters, beaches, and lagoons, Alappuzha was described by George Curzon, Viceroy of India at the start of the 20th century, as the "Venice of the East."[8] Hence, it is known as the "Venetian Capital" of Kerala.
+      
+      It is an important tourist destination in India.[9] It connects Kumarakom and Cochin to the North and Kollam to the South. It is also the access point for the annual Nehru Trophy Boat Race, held on the Punnamada Lake, near Alappuzha, on the second Saturday of August every year. This is amongst the most popular and competitive boat races in India.[10]
+      
+      Alappuzha was home to the Punnapra-Vayalar uprising against the Separate American Model independent Travancore proposal and also the revolt against the Feudal raj. Over 200 Communist party members were killed by the army of the Diwan at Punnapra.[11] Coir is the most important commodity manufactured in Alappuzha.[12] The Coir Board was established by the Central Government under the provisions of the Coir Industry Act, 1955. A Central Coir Research Institute is located at Kalavoor.<hr>
+       <h4 class="text-primary">History</h4> 
+       
+       Kuttanad, the rice bowl of Kerala, with its paddy fields, small streams and canals with lush green coconut palms, was well known even from the early periods of the Sangam age.[17]
+
+Literary works such as Unnuneeli Sandesam give some insight into the ancient period of this district. Archaeological antiquities, such as the stone inscriptions, historical monuments found in the temples, churches, and rock-cut caves, also emphasise the historic importance of Alappuzha District.
+
+Christianity had a foothold in this district, even from the 1st century AD. The church located at Kokkamangalam was one of the seven churches founded by St Thomas,[citation needed] one of the twelve disciples of Jesus Christ. It is generally believed that he landed at Maliankara in Muziris Port, presently known as Cranganore or Kodungallur, in 52 AD and preached Christianity in South India.
+
+The district flourished in religion and culture under the second Chera Empire, during 9th to 12th centuries AD. The literary work, `Ascharya Choodamani`, a Sanskrit drama written by Sakthibhadran, a scholar of Chengannur, enables us to know many pertinent facts. Further, the temple on Lord Ayyappan, in Mukkal vattam near Muhamma in Alappuzha District, is called Cheerappanchira, for the Kalari from which Lord Ayyappa learnt his martial arts. A recent album by P. Unni Krishnan on Lord Ayyappa, titled 'Sabarimalai Va Charanam Solli Va', has songs illustrating the history of this temple and Lord Ayyappa's stay here before he went to conquer the Mahishi Demon.[18]
+
+Since landing in Calicut in 1498, the Portuguese started playing an influential role in Alappuzha. They began by spreading Catholicism and converting already existing Christians into Catholics. St Andrew's Basilica was built during this period.[19]
+
+In the 17th century, as the Portuguese power declined, the Dutch gained a predominant position in the principalities of this district. They built many factories and warehouses for storing pepper and ginger, relying on several treaties signed between the Dutch and the Rajas of Purakkad, Kayamkulam and Karappuram. In course of time they also delved into the political and cultural affairs of the district. At that time Maharaja Marthanda Varma (1706–1758), who was the 'Maker of modern Travancore', intervened in the political affairs of those princedoms.
+
+Travancore Dewan Ramayyan Dalawa (d. 1756) resided in Mavelikkara where he had a palace built by Marthanda Varma. After the death of his wife, Ramayyan consorted with a Nair lady from Mavelikkara of the Edassery family (PGN Unnithan, a member of this family, later became the last Dewan of Travancore in 1947). After his death Ramayyan's descendants left Travancore to settle in Pudukkottai in Tamil Nadu. His Nair consort was given gifts and presents and special allowances from the Travancore government in recognition of his services to the state while his own descendants were bestowed with the honorific title of Dalawa.
+
+In the 19th century the district saw progress in many spheres. One of the five subordinate courts opened in the state in connection with the reorganization of the judicial system by Colonel George Monro was located at Mavelikkara. The first post office and first telegraph office in the former Travancore state were established in this district. The first manufacturing factory for the coir mats was established in 1859. In 1894 the city Improvement Committee was set up.
+
+The district played a role in the freedom struggle of the country. The struggles of Punnapra and Vayalar in 1946 arrayed the people against Sir C. P. Ramaswami Iyer, who was Dewan of Travancore. This led to Ramaswami Iyer's exit from the political scene of Travancore. A popular Ministry was formed in Travancore on 24 March 1948 after India's independence. Travancore and Cochin states were integrated on 1 July 1949. This arrangement continued until the formation of Kerala State on 1 November 1956, under the States Reorganisation Act 1956. The district came into existence as a separate administrative unit on 1 August 1957<hr>
+        <h4 class="text-primary">Geography</h4> 
+        Alappuzha is located at 9.54°N 76.40°E.[23] The average elevation is 1 metre (3.3 ft)[24] Alappuzha covers an area of 1,414 square kilometres (546 sq mi) and is flanked by 2,195 square kilometres (847 sq mi) of Vembanad Lake, where six major rivers spread out before joining the 80 km coast line of the district. The city of Alappuzha is crisscrossed by a system of canals, which is a part of the National Waterway 3.[25]
+
+        The district is a sandy strip of land intercepted by lagoons, rivers and canals. There are no mountains or hills in the district except some scattered hillocks lying between Bharanikkavu and Chengannur blocks in the eastern portion of the district. There are no forest area in this district.
+        
+        Alappuzha is bounded by the Laccadive Sea on its west. The town has a network of lakes, lagoons and fresh water rivers. The richness of the coastal Alappuzha waters is expressed annually in the blooming and consequent deposit of a huge quantity of fishes and prawns on the Alappuzha coast called [Chakara]. This annual shifting of sandbank appears during the post-monsoon period and contributes to the local economy and is a festive season for the people of Kerala. The annual floods rejuvenate and cleanse the soil and water due to which there is abundance of marine life like prawns, lobsters, fishes, turtles and other flora in the sea.
+        
+        The backwaters and wetlands host thousands of migrant common teal, ducks and cormorants every year who reach here from long distances. A major feature of the area is the region called Kuttanad, the 'granary of Kerala'. Kuttanad is also known as the rice bowl of Kerala and is one of the few places in the world where farming is done below sea level. The paddy fields lie about 0.6 to 2 m below mean sea level.<hr>
+        <h4 class="text-primary">Climate</h4> 
+        Owing to its proximity to the sea, the climate of Alappuzha is humid and hot during the summer, although it remains fairly cool and pleasant during the months of October and November. The average monthly temperature is 27 degree Celsius. The district gets the benefit of two seasonal monsoons, as in other parts of the state. Alappuzha town experiences a long monsoon season with heavy showers as both the Southwest and Northeast monsoon influences the weather of Alappuzha. The South-west monsoon affects the climate in the months from June to September. On the other hand, the North-east monsoon brings rain from October to November. The average rainfall received by the region is 2763 mm<br>
+        <br>
+        
+
+<hr>
+</p> 
+
+
+</div>
+
+
+  
+    
+
+<br><br><br><br><br>
+
+  <br><br><br><br><br>
+  <div class="footer">
+  <h2 class="text-center text-primary"><strong>Follow Us</strong></h2>
+<br>
+  <nav class="text-center ">
+    <a href="https://www.youtube.com/@keralatourism" target="_blank"><img src="../images/icons/youtube-modified.png" alt=""></a> &nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/keralatourism" target="_blank"><img src="../images/icons/twitter-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/keralatourismofficial" target="_blank"><img src="../images/icons/facebook-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank"><img src="../images/icons/instagram-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.keralatourism.org/video-gallery/whatsapp" target="_blank"><img src="../images/icons/what's app-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="tel:+91 4712321132"><img src="../images/icons/call-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="mailto:info@keralatourism.org."><img src="../images/icons/mail-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+  </nav>
+  <br><br>
+
+  <p class="text-center text-dark">
+    Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033 <br>
+    All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us. <br>
+    Developed & Maintained by Invis.
+  </p>
+</div>
+</div>
+
+</body>
+
+
+</html>
+
+

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idukki</title>
+    <link rel="icon" href="Kerala-fotor-bg-remover-20230424201150.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    #logo{
+        height: 80px;
+        width: 80px;
+        margin-left: 20px;
+    }
+   .navbar a{
+    
+        text-decoration: none;
+        color: rgb(15, 111, 229);
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-right: 80px;
+        
+    }
+    .navbar a:hover{
+      color: gray;
+      
+    }
+    #para1{
+        margin-left: 60px;
+    }
+    #map{
+        float: right ;
+        margin-right: 50px;
+        padding: 0;
+       
+        
+     
+    }
+    
+    .card-group{
+   
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card{
+        height: 270;
+        margin-left: 80px;
+        margin-right: 80px;
+       
+       
+        
+        color: blue;
+        padding: 0px;
+    }
+    #image{
+        height: 350px;
+    }
+    
+    .flip-card {
+        background-color: white;
+        width: 290px;
+        height: 340px;
+        perspective: 1000px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        
+        transform: rotateY(-360deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: white;
+        color: white;
+      }
+      
+      .flip-card-back {
+        background-color:white;
+        color: rgb(242, 10, 10);
+        transform: rotateY(180deg);
+      }
+   
+      
+    
+   
+</style>
+
+</head>
+<body>
+    <div>
+<!-- nav start -->
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img id="logo" src="Kerala-fotor-bg-remover-20230424201150.png" alt=""> &nbsp;&nbsp;
+      <a class="navbar-brand" href="../navbar/login/login.html">Log In</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../navbar/login/signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../district.html">District Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="https://www.makemytrip.com/holidays-india/kerala-tourism.html">Plan Your Trip</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br>
+
+
+  <!-- cards -->
+
+  <div class="card-group">
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://en.wikipedia.org/wiki/Munnar"><img id="image" src="../district/munnar1.jpg" class="card-img-top h-60" alt="..."></a><br> 
+      <div class="card-body">
+     <h5 class="card-title  text-primary text-center ">Munnar</h5>
+          <div class="flip-card-back text-primary bg-info">
+             
+            
+            
+          </div>
+        </div>
+        </div>
+      </div>  
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.tripadvisor.in/Attraction_Review-g297632-d7266141-Reviews-Valara_waterfalls-Idukki_Idukki_District_Kerala.html" ><img id="image" src="Valara-Waterfalls-DSC_9464.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Valara Waterfall</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.tripadvisor.in/Hotel_Review-g303881-d7063594-Reviews-Kolukkumalai_Mountain_Hut-Munnar_Idukki_District_Kerala.html" ><img id="image" src="kolUKKUMALA.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Kolukkumalai Trek</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.tripadvisor.in/Attraction_Review-g297632-d3279300-Reviews-Kalvari_Mount-Idukki_Idukki_District_Kerala.html" ><img id="image" src="kalvari mount.jpg" class="card-img-top h-60 " alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Kalvari Mount</h5>
+        <div class="flip-card-back text-primary">
+          
+        
+          
+        </div>
+      </div>
+       
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- cards end -->
+
+  <br><br><br><br><br>
+<!-- Description -->
+
+<div id="para1">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31447.424304046708!2d76.94694675!3d9.8564047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07ba46467e69c3%3A0xac9b7a0e53bf72d2!2sIdukki%20Twp%2C%20Kerala!5e0!3m2!1sen!2sin!4v1682762347101!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    <h1 class=" text-primary" >Idukki</h1><br>
+    
+
+
+    <p >Idukki (ഇടുക്കി),  is one of the 14 districts in the Indian state of Kerala. Idukki district lies amid the Cardamom Hills of Western Ghats in Kerala. Idukki district contains two municipal towns - Kattappana and Thodupuzha. The district currently includes five taluks in it.
+
+        The district was constituted on 26 January 1972, by taking Peerumade, Udumbanchola, Devikulam taluks of the former High Range division from Kottayam district and the Thodupuzha taluk from Ernakulam district. Its division was previously headquartered at Kottayam city, but moved to Kuyilimala near Painavu and Cheruthoni in June 1976. Malayalam and English are the two official administrative languages in the district. Tamil is the second most spoken language in idukki after Malayalam 
+        
+        Around 66% of Kerala's power needs come from various Hydroelectric Power Projects in Idukki district. Numerous cash crops and spices are cultivated throughout the district, making it The Spice Garden of Kerala. A significant area in the district is protected as reserved forests and wildlife sanctuaries. The Periyar River is a major river that originates and flows through Idukki. The Pamba River is another important river that originates from Idukki district.
+        
+        Though it is the second-largest district in the region in terms of area, it has the lowest population density among the districts of Kerala. There are only two municipalities in the district and the urban population is comparatively much lower than the rural population, due to its mountainous nature. The 2,695 metres (8,842 ft) high peak of Anamudi, which is also the highest point of elevation in India outside the Himalayas, lies in the northern portion of the district of Idukki. The Idukki Dam is one of the highest arch dams in Asia.<hr>
+       <h4 class="text-primary">History</h4> 
+       
+       A perfect blend of the Malayali, the Tamil, and various tribal cultures is found in the Idukki district. The temples and other older buildings in the High Range and the surrounding regions in Idukki have significant influences from the medieval era Tamil-Pandyan architectural styles. The mountain passes like Bodinayakkanur (connecting various mountain ranges) and Cumbum (which connects the eastern Tamil country with Thodupuzha) have facilitated trade and travel between the Tamil-Pandyan country which lied to east of the Western Ghats and various Kerala kingdoms west of it during the medieval period. Periyar, the longest river in Kerala, has its source of origin and major portion of its route of flow, in the Idukki district. Pamba, the third-longest river in Kerala, also has its origin in the district of Idukki. During the Travancore Era, Munnar has acted as the summer residence of the British residents in Travancore. Higher peaks like Anamudi on the eastern border of the Idukki district have acted as a natural boundary between the Malayalam kingdoms and the contemporary Tamil kingdoms in the past, thereby reducing invasions into the region from the neighbouring Tamil country as well as from other parts of the Indian peninsula. The 17th century Dutch work, Hortus Malabaricus, contains information about the flora and fauna of the region at that time.<hr>
+        <h4 class="text-primary">Pre-History</h4> 
+        
+        Archaeological findings found from the district include dolmens of the Neolithic era in the Marayur area. They are locally known as "muniyara", derived from muni (hermit or sage) and ara (dolmen).
+
+        Located on the highest point of elevation on the Peninsular India, the Cardamom Hills and its surrounding regions were inhabited by human beings during the Megalithic age itself. Numerous Megalithic monuments have been discovered from the mountainous regions of the district. The remnants of numerous Kodumkallaras and Kallaras have been found from various places at Marayur in Devikulam taluk.[12] Megalithic remnants of Kallaras and Nadukkallus are also found at Kallarpattam colony in Udumbanchola taluk. Huge Kodumkallaras and Nadukkallus were discovered from the excavation sites in Vandiperiyar region as well. The Megalithic monuments found from Idukki show numerous similarities with the contemporary remnants those discovered from Deccan plateau and other parts of the South India. Usage of Iron was common in the Megalithic culture of Deccan. The district of Idukki was inhabited by various tribes like Malavedas, Malayarayas, Muthuvans, and Paliyans, during the early period of its human history.<hr>
+        <h4 class="text-primary">Geography</h4> <hr>
+        The Idukki district forms a high altitude plateau with rugged mountainous terrain, several river valleys and deep gorges. The entire northern part of the district forms a sub plateau higher than the rest of the district, this region includes the tallest peaks like Anamudi and includes the areas around Munnar, Pallivasal, Kanthalloor, Vattavada and Mankulam. The Pambar river valley (Marayoor, Keezhanthoor) forms an eastern sloping rain shadow region of the Western Ghats. The eastern frontier of the district (Kumily, Kattapana, Nedumkandam, Rajakumari and Ramakkalmedu) constitutes the Cardamon hills. The western part of the district is covered by forests and hills bordering the eastern regions of Ernakulam and Kottayam district like Neriyamangalam, Vannapuram, Thommankuthu, Moolamattom, Vagamon and Kuttikanam. Places like Thodupuzha, Koothattukulam, Udumbanoor and Muttom are situated in the semi elevated Thodupuzha river plains with scattered hills. The Periyar river basin in the district which includes Vandiperiyar, Ayyapankoil, Rajakkad, Idukki, Cheruthoni and Adimaly is an elevated plateau crisscrossed by river valleys and lies between the high peaks of the western and eastern parts of the district. The southern region is entirely covered with the forests of the Periyar National Park.[citation needed]
+
+Anamudi and Meesapulimala, the two highest peaks in India south of the Himalayas, are located in Idukki district. Anamudi is situated in the Kuttampuzha Panchayat of Adimali Block in the Kannan Devan Hills village of Devikulam taluk. Thirteen other peaks in the district exceed a height of 2,000 m (6,600 ft). Periyar, Thodupuzhayar, Muthirappuzhayar, and Thalayar are the important rivers of the district. Idukki Dam, Asia's largest arch dam, is located in the Idukki Township. The dam is located at the point where the Periyar flows through the gorge formed between two high and massive rocks known as 'Kuravan' and 'Kurathi'. <br>
+        <br>
+        <h5 class="text-primary">Climate</h5>
+        Idukki has a large area of dense forest cover and shola forests. It is highly vulnerable to floods and drought and is considered a climate change hotspot in Kerala, along with the districts of Alappuzha, Palakkad, and Wayanad.[32] Researchers attribute the increasing frequency in landslides in Idukki to climate change and deforestation.[33][34] Changes in rainfall patterns caused by climate change, coupled with deforestation and large-scale construction projects, are among the contributing factors that led to the August 2020 landslide that killed 65 people, including plantation workers.
+    <br>
+
+<hr>
+</p> 
+
+
+</div>
+
+
+  
+    
+
+<br><br><br><br><br>
+
+  <br><br><br><br><br>
+  <div class="footer">
+  <h2 class="text-center text-primary"><strong>Follow Us</strong></h2>
+<br>
+  <nav class="text-center ">
+    <a href="https://www.youtube.com/@keralatourism" target="_blank"><img src="../images/icons/youtube-modified.png" alt=""></a> &nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/keralatourism" target="_blank"><img src="../images/icons/twitter-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/keralatourismofficial" target="_blank"><img src="../images/icons/facebook-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank"><img src="../images/icons/instagram-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.keralatourism.org/video-gallery/whatsapp" target="_blank"><img src="../images/icons/what's app-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="tel:+91 4712321132"><img src="../images/icons/call-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="mailto:info@keralatourism.org."><img src="../images/icons/mail-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+  </nav>
+  <br><br>
+
+  <p class="text-center text-dark">
+    Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033 <br>
+    All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us. <br>
+    Developed & Maintained by Invis.
+  </p>
+</div>
+</div>
+
+</body>
+
+
+</html>

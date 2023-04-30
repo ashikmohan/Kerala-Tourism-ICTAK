@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernakulam</title>
+    <link rel="icon" href="Kerala-fotor-bg-remover-20230424201150.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    #logo{
+        height: 80px;
+        width: 80px;
+        margin-left: 20px;
+    }
+   .navbar a{
+    
+        text-decoration: none;
+        color: rgb(15, 111, 229);
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-right: 80px;
+        
+    }
+    .navbar a:hover{
+      color: gray;
+      
+    }
+    #para1{
+        margin-left: 60px;
+    }
+    #map{
+        float: right ;
+        margin-right: 50px;
+        padding: 0;
+       
+        
+     
+    }
+    
+    .card-group{
+   
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card{
+        height: 270;
+        margin-left: 80px;
+        margin-right: 80px;
+       
+       
+        
+        color: blue;
+        padding: 0px;
+    }
+    #image{
+        height: 350px;
+    }
+    
+    .flip-card {
+        background-color: white;
+        width: 290px;
+        height: 340px;
+        perspective: 1000px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        
+        transform: rotateY(-360deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: white;
+        color: white;
+      }
+      
+      .flip-card-back {
+        background-color:white;
+        color: rgb(242, 10, 10);
+        transform: rotateY(180deg);
+      }
+   
+      
+    
+   
+</style>
+
+</head>
+<body>
+    <div>
+      <!-- nav start -->
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img id="logo" src="Kerala-fotor-bg-remover-20230424201150.png" alt=""> &nbsp;&nbsp;
+      <a class="navbar-brand" href="../navbar/login/login.html">Log In</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../navbar/login/signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../district.html">District Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="https://www.makemytrip.com/holidays-india/kerala-tourism.html">Plan Your Trip</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br>
+
+
+  <!-- cards -->
+
+  <div class="card-group">
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://areekkal-waterfall.business.site/?utm_source=gmb&utm_medium=referral" ><img id="image" src="Areekal.jpg" class="card-img-top h-60" alt="..."></a><br> 
+      <div class="card-body">
+     <h5 class="card-title  text-primary text-center ">Areekkal Waterfall</h5>
+          <div class="flip-card-back text-primary bg-info">
+             
+            
+            
+          </div>
+        </div>
+        </div>
+      </div>  
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://en.wikipedia.org/wiki/Hill_Palace,_Tripunithura" ><img id="image" src="the-hill-palace-museum-3.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Hill Palace</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.tripuntold.com/kerala/ernakulam/koorumala/"><img id="image" src="koorumala.jpg" class="card-img-top h-60" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Koorumala Viewpoint</h5>
+        <div class="flip-card-back text-primary bg-info">
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+      <a class="explore" href="https://www.kochimuzirisbiennale.org/" ><img id="image" src="kochi biennale.jpeg" class="card-img-top h-60 " alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title text-primary">Kochi Biennale</h5>
+        <div class="flip-card-back text-primary">
+          
+        
+          
+        </div>
+      </div>
+       
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- cards end -->
+
+  <!-- Description -->
+
+  <br><br><br><br><br>
+
+<div id="para1">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125745.78219958892!2d76.30829335!3d9.970874599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d08f976f3a9%3A0xe9cdb444f06ed454!2sErnakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1682738936095!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    <h1 class=" text-primary" >Ernakulam</h1><br>
+    
+
+
+    <p > Ernakulam is the Central Business District of the city of Kochi in Kerala, India and has lent its name to the Ernakulam district. <br> Many major establishments, including the Kerala High Court, the office of the Kochi Municipal Corporation and the Cochin <br> Shipyard are situated here. <br> <hr>
+       <h4 class="text-primary">Classical history</h4> 
+        The region can claim to have played a significant part in fostering the trade relations between Kerala and the outside world in the ancient and medieval period. The early political history of Ernakulam is interlinked with that of the Chera Dynasty of the Sangam age, who ruled over vast portions of Kerala and Tamil Nadu. After the Cheras, the place was later ruled by the Kingdom of Cochin (Perumpadapu Swaroopam). <hr>
+        <h4 class="text-primary">Princely State of Cochin</h4> 
+        Although under British suzerainty (specifically the East India Company) since the Anglo-Dutch Treaty of 1814, Rama Varma XII of the Kingdom of Cochin moved his capital from Mattancherry to Tripunithura in about 1840. Fort Cochin Municipality was established in 1866 under the Madras Town Improvement Act of 1865, and municipal elections were first held in 1883. Ernakulam became a municipality in 1910. In the first state census of 1911, the population of Ernakulam was 21,901; 11,197 Hindus, 9,357 Christians, 935 Muslims, and 412 Jews. <hr>
+        <h4 class="text-primary">Geography</h4> <hr>
+        The Ernakulam District is situated in Central Kerala in India. Ernakulam is located at 9.98°N 76.28°E. It has an average elevation of 4 m (13 ft). <br>
+        <br>
+        <h5 class="text-primary">Climate</h5>
+Under the Köppen climate classification, the city of Ernakulam features a Tropical monsoon climate. Since the region lies in the south western coastal state of Kerala, the climate is tropical, with only minor differences in temperatures between day and night, as well as over the year. Summer lasts from March to May, and is followed by the South-west monsoon from June to September. October and November form the post monsoon or retreating monsoon season. Winter from December through February is slightly cooler, and windy, due to winds from the Western Ghats.
+The city is drenched in the monsoonal season by heavy showers. The average annual rainfall is 3,000 mm (120 in). The South-west monsoon generally sets in during the last week of May. After July the rainfall decreases. On an average, there are 124 rainy days in a year. The maximum average temperature of the city in the summer season is 33 °C (91 °F) while the minimum temperature recorded is 22.5 °C (72.5 °F). The winter season records a maximum average of 29 °C (84 °F) and a minimum average of 20 °C (68 °F).
+    <br>
+<br>
+    <h4 class="text-primary">Transport</h4> <hr>
+<h5 class="text-primary">Road</h5><br>
+Ernakulam is a city that is connected to the North-South Corridor National Highway System via the four-laned National Highway 66 as well as National Highway 544.The MC Road starting from Thiruvananthapuram ends in Angamaly. The highway traverses through the entire length and breadth of the city from different points and provides access to the nearby cities such as Thrissur, Palakkad, Salem and Coimbatore. NH 66 was supposed to be acting as the bypass for Kochi city, but the fast-paced urban expansion of Kochi has meant that the bypass quickly became a city road passing through the middle of it, thereby forcing the NHAI to propose a new bypass for the city.
+The state-owned Kerala State Road Transport Corporation (KSRTC) runs inter-state, inter-district and city services, mostly from the Ernakulam KSRTC bus stand which is the busiest bus stand in Kochi after the Vytilla Mobility Hub. The Kerala State Road Transport Corporation also operates two other bus stations in Ernakulam region of Kochi city, called as "Ernakulam Jetty" and "Thevara Depot". <br>
+<br>
+<h5 class="text-primary">Railway</h5><br>
+The Ernakulam railway station is located close to the city's main shopping area situated on Ernakulam MG Road, and Kadavanthra which is connected by metro.[Better source needed] The Southern Railway Zone of the Indian Railways operates the main rail transport system in Ernakulam.
+The Ernakulam Junction Railway Station is a junction and departing station of passengers and express trains, and is the stopping point for trains going towards the south side Alappuzha. Both the North and South railway stations have been selected by the Ministry of Railways to be upgraded to airport-like ones. The redevelopment of the Ernakulam Junction railway station has recently gotten underway. <br>
+
+<br>
+<h5 class="text-primary">Air</h5><br>
+The Cochin International Airport (in Nedumbassery, Kochi) is about 27 kilometers away from Ernakulam.
+
+The old civilian airport of Kochi was situated much closer to Ernakulam, at Willingdon Island. It is now formally known as INS Garuda, and is a part of the Southern Naval Command HQ. <br>
+<br>
+<h5 class="text-primary">Metro</h5><br>
+Ernakulam region is connected with the other parts of Kochi city with the Kochi Metro, which was opened in July 2017. The first phase is being set up at an estimated cost of ₹51.81 billion (US$650 million),and has a length of over 28 kilometres stretching from Aluva in the north to Tripunithura railway station in the southeast, passing through Ernakulam. Currently 25.6 km of phase 1 from Aluva to Pettah is open to public while the remaining 2.7 km from Pettah to Tripunithura is under construction. Currently over 70% of the construction of phase 1A to SN Junction has been completed and the stretch is expected to be commissioned by March 2022. <br>
+
+<br>
+<h5 class="text-primary">Water</h5><br>
+Ernakulam has a number of jetties where passengers can embark and disembark from ferries. Ferry services connect with Willingdon Island, Mattancherry, Fort Kochi and Mulavukadu, at intervals of 20 minutes.
+<hr>
+</p> 
+
+
+</div>
+
+
+  
+    
+
+<br><br><br><br><br>
+
+  <br><br><br><br><br>
+  <div class="footer">
+  <h2 class="text-center text-primary"><strong>Follow Us</strong></h2>
+<br>
+  <nav class="text-center ">
+    <a href="https://www.youtube.com/@keralatourism" target="_blank"><img src="../images/icons/youtube-modified.png" alt=""></a> &nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/keralatourism" target="_blank"><img src="../images/icons/twitter-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/keralatourismofficial" target="_blank"><img src="../images/icons/facebook-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank"><img src="../images/icons/instagram-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.keralatourism.org/video-gallery/whatsapp" target="_blank"><img src="../images/icons/what's app-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="tel:+91 4712321132"><img src="../images/icons/call-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+    <a href="mailto:info@keralatourism.org."><img src="../images/icons/mail-modified.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+  </nav>
+  <br><br>
+
+  <p class="text-center text-dark">
+    Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033 <br>
+    All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us. <br>
+    Developed & Maintained by Invis.
+  </p>
+</div>
+</div>
+
+</body>
+
+
+</html>
