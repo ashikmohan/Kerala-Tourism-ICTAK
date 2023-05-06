@@ -11,7 +11,7 @@
   <link rel="icon" href="Kerala-fotor-bg-remover-20230424201150.png">
   <link rel="stylesheet" href="signstyle.css">
 </head>
-<
+
 
  
 
@@ -22,25 +22,33 @@
      
       <h3>Sign Up</h3>
       <div class="input-field">
+        <form action="" onsubmit="return (emailvalidate() & phonevalidate() & passvalidate());">
         <i class="fa fa-user"></i>
-          <input type="text" placeholder="Enter your Name">
+          <input  type="text" placeholder="Enter your Name"><br>
       </div>
       <div class="input-field">
           <i class="fa fa-envelope"></i>
-          <input type="text" placeholder="Enter your email">
+          <input id="email" type="text" placeholder="Enter your email"><br>
+          <span id="error1"></span>
+      </div>
+      <div class="input-field">
+          <i class="fa fa-phone"></i>
+          <input id="phone" type="tel" placeholder="Enter your Phone number"><br>
+          <span id="error2"></span>
       </div>
       <div class="input-field">
         <i class="fa fa-lock"></i>
-        <input type="password" placeholder="Enter your password">
+        <input id="pass" type="password" placeholder="Enter your password"> <br>
+        <span id="error3"></span>
+        
     </div>
-      <div class="input-field">
-        <i class="fa fa-lock"></i>
-        <input type="password" placeholder="Re Enter your password">
-    </div>
+      
     <a href="#">Forgot password?</a>
     <button type="submit" class="btn">  Sign Up</button>
+  </form>
     <p> <a href="#">Already have an account?</a> &nbsp; &nbsp;&nbsp; <a href="login.html" target="_blank">Login now</a></p>
-    </div>
+    
+  </div>
     <div class="image">
       <div class="overlay">
         <br><br>
@@ -49,7 +57,7 @@
       </div>
     </div>
   </div>
-  
+  <script src="Signup.js"></script>
 </body>
 
 </html>

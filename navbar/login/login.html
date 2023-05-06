@@ -15,20 +15,27 @@
  
 
 <body>
-  
+ 
   <div class="card">
     <div class="form">
       <h3>Login</h3>
       <div class="input-field">
+        <form action="" onsubmit="return (emailval() & pasval());">
           <i class="fa fa-envelope"></i>
-          <input type="text" placeholder="Enter your email">
+          <input type="text" id="email" placeholder="Enter your email">
+          <br>
+          <span id="error1"></span>
       </div>
       <div class="input-field">
         <i class="fa fa-lock"></i>
-        <input type="password" placeholder="Enter your password">
+        <input type="password" id="pass" placeholder="Enter your password">
+        <br>
+        <span id="error2"></span>
+        
     </div>
     <a href="#">Forgot password?</a>
     <button type="submit" class="btn">  Login</button>
+  </form>
     <p> <a href="#">Don't have an account?</a> &nbsp;&nbsp;&nbsp; <a href="signup.html" target="_blank">Signup now</a></p>
     </div>
     <div class="image">
@@ -38,9 +45,11 @@
         <br><br><br><br>
         <p>Let's get connected</p>
       </div>
+    
     </div>
   </div>
-  
+
+<script src="login.js"></script>
 </body>
 
 </html>
