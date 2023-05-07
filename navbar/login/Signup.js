@@ -1,20 +1,3 @@
-// function emailvalidate(){
-//     var email =document.getElementById("email").value;
-//     var error1 =document.getElementById("error1");
-//     var pattern =/^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-//     if(email.match(pattern)){
-//         error1.innerHTML = "Email is valid";
-//       error1.style.color ='#D9F109';
-//       return true;
-//     } else {
-//       error1.innerHTML = "Invalid email address";
-//       error1.style.color='red'
-//       return false;
-//     }
-//     }
-    
-// function 
-
 function emailvalidate() {
     var email = document.getElementById("email").value;
     var error = document.getElementById("error1");
@@ -60,18 +43,18 @@ function emailvalidate() {
       error2.style.color = "#53C645";
       return true;
     } else {
-      var strength = "";
-      var color = "";
+     
       if (pass.length >= 8) {
-        strength = "Medium";
-        color = "#F1980D";
+        
+        error2.innerText="Password Strength : Medium"
+        error2.style.color ='orange'
       }
        else {
-        strength = "Poor";
-        color = "EF9A0D";
+        
+        error2.innerText="Password Strength : Poor"
+        error2.style.color ='red'
       }
-      error2.innerHTML = "Password strength: " + strength;
-      error2.style.color = "red";
+      
       return false;
     }
   }

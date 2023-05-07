@@ -25,17 +25,15 @@ function pasval() {
       error2.style.color = "#53C645";
       return true;
     } else {
-      var strength = "";
-      var color = "";
-      if (pass.length >= 8) {
-        strength = "Medium";
-        color = "#F1980D";
-      } else {
-        strength = "Poor";
-        color = "";
+    
+      if(pass.length >=8){
+        error2.innerText="Password strength: Medium"
+        error2.style.color ='orange'
+      } else{
+        error2.innerText="Password strength: Poor"
+        error2.style.color ="red"
       }
-      error2.innerHTML = "Password strength: " + strength;
-      error2.style.color = "red";
+      
       return false;
     }
   }
